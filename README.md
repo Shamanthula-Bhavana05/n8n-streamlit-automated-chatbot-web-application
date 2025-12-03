@@ -31,15 +31,6 @@ A fully automated AI chatbot that enables real-time communication through a mode
 
 ---
 
-## 🧩 System Architecture
-
-```mermaid
-graph TD
-A[User] --> B[Streamlit Web App]
-B -->|Send/Receive Message| C[n8n Workflow]
-C --> D[Gemini AI Agent]
-D --> C --> B
-
 📸 Project Snapshots
 🔹 Web Application UI
 
