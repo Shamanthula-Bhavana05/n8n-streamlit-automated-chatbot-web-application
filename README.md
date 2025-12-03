@@ -46,13 +46,17 @@ A fully automated AI chatbot that enables real-time communication through a mode
 git clone https://github.com/Shamanthula-Bhavana05/n8n-streamlit-automated-chatbot-web-application
 cd n8n-streamlit-automated-chatbot-web-application
 
+
 2️⃣ Install Dependencies
 pip install -r requirements.txt
 
+
 3️⃣ Run Streamlit App
-streamlit run app.py
+streamlit run app.
+
 
 🔗 n8n Setup Guide
+
 
 1️⃣ Create a Webhook node → Set to POST
 2️⃣ Connect to Gemini Chat Model node
@@ -60,7 +64,9 @@ streamlit run app.py
 4️⃣ Copy Webhook URL → Paste into Streamlit code
 5️⃣ Execute workflow in Production Mode
 
+
 Workflow JSON export — Coming soon!
+
 
 ⚙️ Environment Variables
 
@@ -78,6 +84,7 @@ GOOGLE_API_KEY=<your_gemini_api_key>
 💾 Save conversation history
 
 ☁️ Cloud deployment (Streamlit Cloud / Render)
+
 
 
 📩 Connect With Me
